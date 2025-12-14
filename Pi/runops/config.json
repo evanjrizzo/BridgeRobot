@@ -1,0 +1,73 @@
+{
+  "run_interactive": false,
+  "dry_run": false,
+  "invert_head_rotation": false,
+
+  "host": "0.0.0.0",
+  "port": 8080,
+
+  "cam_index": 0,
+  "cam2_index": 2,
+
+  "frame_w": 1280,
+  "frame_h": 720,
+  "use_mjpg": true,
+  "req_fps": 60,
+
+  "turbojpeg_quality": 60,
+  "opencv_quality": 60,
+  "stream_downscale_width": 0,
+
+  "target_rgb": [209, 100, 89],
+  "rel_tol": 0.20,
+  "area_min": 20,
+  "max_target_segment_mm": 10,
+
+  "beam_middle_x": 533,
+  "beam_middle_y": 345,
+
+  "target_x_min_left": 150.0,
+  "target_x_max_left": 614.0,
+  "target_y_min_left": 160.0,
+  "target_y_max_left": 520.0,
+
+  "target_x_min_right": 615.0,
+  "target_x_max_right": 880.0,
+  "target_y_min_right": 160.0,
+  "target_y_max_right": 520.0,
+
+  "roi_u_min": 110,
+  "roi_u_max": 550,
+  "roi_v_min": 60,
+  "roi_v_max": 420,
+
+  "beam_roi_left":  [450, 940, 100, 550],
+  "beam_roi_right": [350, 910, 90, 550],
+
+  "pca_channels": 16,
+  "pca_address": 64,
+  "pwm_freq": 50,
+
+  "ch_sg90": 0,
+  "ch_ms24": 1,
+
+  "sg90_range": 180,
+  "sg90_pw": [500, 2400],
+
+  "ms24_range": 200,
+  "ms24_pw": [700, 2500],
+
+  "sg90_idle_deg": 100.0,
+  "sg90_fire_deg": 0.0,
+  "ms24_fire_deg": 20.0,
+
+  "lens_delay": 1.0,
+  "spray_time": 0.05,
+  "smooth_steps": 12,
+  "smooth_delay": 0.02,
+  "rearm_after": 2.0,
+
+  "ultra_trig": 20,
+  "ultra_echo": 21,
+  "ultra_hz": 10.0
+}
