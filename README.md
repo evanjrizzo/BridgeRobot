@@ -5,4 +5,4 @@ The Pi/runops directory contains all files needed for controller-computer interf
 
 RobotController contains a full working copy of the r30iA Mate controller's firmware. This can be loaded onto a compactflash cart and then installed through the controller's "load backup" feature. This will load all necessary configurations and programs on the robot controller. "autonew4.PC" is the KAREL server which allows for socket communication, and "bridmain.TP" is the teach pendant program which reads flags set by the server and commands robot motion.
 
-For any questions on robot or computer configuration, contact Evan Rizzo (Information inside contoller cabinet).
+For any questions on robot or computer configuration, contact Evan Rizzo.
